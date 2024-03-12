@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Student List</title>
+        <style type="text/css">
+            .StudentDetails {display:none;}
+            .Student img {
+                width: 150px;
+                height: 150px;
+                border-radius: 20px;
+                box-shadow: 5px 5px 10px #aaa;
+            }
+            .StudentName {font-weight: bold;}
+            .Studentcode {font-style: italic;}
+            .Studentcode: before {content: "-";}
+            .Student {
+                text-align: center;
+                width: 150px;
+                margin: 0px 20px;
+                float: left;
+                cursor: pointer;
+            }
+            .Student:hover . StudentDetails {display: block;}
+
+        </style>
+    </head>
+    <body>
+        <div class="Student">
+            <img src="img/haiyen.jpg">
+            <div class="StudentDetails">
+                <span class="StudentName">Nguyễn Thị Hải Yến</span>
+                <span class="Studentcode"> 23070361</span>
+            </div>
+        </div>
+    </body>
+</html>
