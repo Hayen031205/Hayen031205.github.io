@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính tổng 2 số</title>
+</head>
+ 
+<body>
+   <input type="text" id="nb1">
+   <input type="text" id="nb2">
+   <button onclick="tinhtong();">
+       Tính tổng
+   </button>
+</body>
+<script>
+    function tinhtong()
+    {
+            var nb1 = document.getElementById('nb1').value;
+            var nb2 = document.getElementById('nb2').value;
+            var tong= parseInt(nb1) + parseInt(nb2);
+            alert("Tổng: " + tong);     
+    }
+    </script>
+</html>
